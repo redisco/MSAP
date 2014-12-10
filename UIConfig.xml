@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gridbag SYSTEM "UIConfig.dtd">
+<gridbag>
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean >
+            <class>ua.com.msap.gui.components.WriteVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE4)Температура на улице</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te4</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.WriteVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE1)Температура подающего теплоносителя</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te1</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>
+   <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.ReadVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(A1)Положение клапана</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>a1</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.ReadVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE4)Температура на улице</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te4</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.ReadVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE1)Температура подающего теплоносителя</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te1</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>  
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.ReadVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE2)Температура после клапана</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te2</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>
+    <row>
+      <cell  gridwidth="1" fill="BOTH">
+         <bean>
+            <class>ua.com.msap.gui.components.ReadVariableComponent</class>
+            <property>
+               <name>caption</name>
+               <value><string>(TE3)Температура обратного теплоносителя</string></value>
+            </property>
+			<property>
+               <name>variableName</name>
+               <value><string>te3</string></value>
+            </property>
+         </bean>
+      </cell>
+   </row>    
+   <row>
+   	  <cell  gridwidth="1" fill="BOTH" weightx="100">
+         <bean>
+            <class>ua.com.msap.gui.components.StartStopRestartButton</class>
+         </bean>
+      </cell>
+   </row>
+  <row>
+   	  <cell  gridwidth="1" fill="BOTH"  weightx="100" weighty="100">
+         <bean>
+            <class>ua.com.msap.gui.components.ImagePanel</class>
+            <property>
+               <name>fileName</name>
+               <value><string>atep_logo.jpg</string></value>
+            </property>
+         </bean>
+      </cell>  
+   </row>
+</gridbag>
+      
+      
